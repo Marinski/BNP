@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BNP", "http://localhost:6448", "{CBF9EEC8-01EA-4F40-B8EC-9685C72420FE}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_6448"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\xampp\htdocs\BNP\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6448\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_6448"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\xampp\htdocs\BNP\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6448\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\..\..\xampp\htdocs\BNP\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBF9EEC8-01EA-4F40-B8EC-9685C72420FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF9EEC8-01EA-4F40-B8EC-9685C72420FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
