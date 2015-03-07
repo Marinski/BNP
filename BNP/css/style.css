@@ -235,6 +235,10 @@ div.wrapper div.3steps h3.3steps-title {
         float: left;
     }
 
+    .one-third.last img {
+        margin-left: -4px;
+    }
+
 .one-third-heading {
     font-size: 23px;
     font-family: OpenSans-Bold;
@@ -258,7 +262,7 @@ div.wrapper div.3steps h3.3steps-title {
 }
 
 .last .one-third-heading, .last .one-third-paragraph {
-    padding-left: 100px;
+    padding-left: 103px;
     color: #198abf;
     /*margin: 0;*/
 }
@@ -283,13 +287,13 @@ div.wrapper div.3steps h3.3steps-title {
 
     .home-page .offers-wrapper {
         float: left;
-        width: 620px;
+        width: 65%;
     }
 
     .home-page .form-full {
         float: left;
         margin-left: 32px;
-        width: 258px;
+        width: 26%;
         background: #f4f4f4;
         border: 1px solid #e4e4e4;
         padding: 0 23px;
@@ -337,7 +341,7 @@ ul.offers-list li.right.offer-item {
     left: 67px;
     top: 37px;
     border-radius: 50%;
-    behavior: url(../inc/PIE_uncompressed.htc);
+    behavior: url(inc/PIE_uncompressed.htc);
     background: #fff;
 }
 
@@ -381,7 +385,7 @@ ul.offers-list li.right.offer-item {
 .success-bubble {
     display: table;
     border-radius: 50%;
-    behavior: url(../inc/PIE_uncompressed.htc);
+    behavior: url(inc/PIE_uncompressed.htc);
     width: 220px;
     height: 220px;
     border: 3px solid #088671;
@@ -415,7 +419,7 @@ ul.offers-list li.right.offer-item {
 .error-bubble {
     display: table;
     border-radius: 50%;
-    behavior: url(../inc/PIE_uncompressed.htc);
+    behavior: url(inc/PIE_uncompressed.htc);
     width: 220px;
     height: 220px;
     border: 5px solid #993365;
@@ -567,6 +571,7 @@ h3 {
 .lang-wrap {
     width: 200px;
     display: inline-block;
+    *display: inline;
     margin-bottom: 20px;
     position: relative;
     float: right;
@@ -670,7 +675,7 @@ h3 {
         color: #077764;
         margin: 5px;
         border-radius: 50%;
-        behavior: url(../inc/PIE_uncompressed.htc);
+        behavior: url(inc/PIE_uncompressed.htc);
         line-height: 50px;
         font-size: 20px;
     }
@@ -815,7 +820,7 @@ html body footer.footer div.footer-content div.footarea.coffee p {
     display: inline-block;
     *display: inline;
     text-align: center;
-    width: 33%;
+    width: 32%;
     padding-top: 100px;
     vertical-align: top;
 }
@@ -847,7 +852,6 @@ html body footer.footer div.footer-content div.footarea.coffee p {
     .banner img {
         width: 100%;
         max-height: 100%;
-        margin-top: -100px;
     }
 
 .sub-nav li {
@@ -950,7 +954,7 @@ select::-ms-expand {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px !important;
-    behavior: url(../inc/PIE_uncompressed.htc);
+    behavior: url(inc/PIE_uncompressed.htc);
     cursor: pointer;
 }
 
@@ -974,7 +978,7 @@ select::-ms-expand {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0 !important;
-    behavior: url(../inc/PIE_uncompressed.htc);
+    behavior: url(inc/PIE_uncompressed.htc);
 }
 
     .reset-btn:focus, .submit-btn:focus {
@@ -1175,7 +1179,7 @@ html > /**/ body .error-message-red {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    behavior: url(../inc/PIE_uncompressed.htc);
+    behavior: url(inc/PIE_uncompressed.htc);
     margin-bottom: 5px;
 }
 
@@ -1313,7 +1317,7 @@ html > /**/ body #status {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px !important;
-    behavior: url(../inc/PIE_uncompressed.htc);
+    behavior: url(inc/PIE_uncompressed.htc);
 }
 
 .calculateSumbit {
@@ -1331,7 +1335,7 @@ html > /**/ body #status {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    behavior: url(../inc/PIE_uncompressed.htc);
+    behavior: url(inc/PIE_uncompressed.htc);
     color: #000;
     font-size: 14px;
     font-weight: bold;
@@ -1650,7 +1654,7 @@ div.offers-wrapper ul.offers-list li.offer-item a.offer-link.active section.offe
     background-color: #e2e2e2;
     box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, .1), 0 1px 0 0 rgba(255, 255, 255, .8);
     border-radius: 8px;
-    behavior: url(../inc/PIE_uncompressed.htc);
+    behavior: url(inc/PIE_uncompressed.htc);
 }
 
 .radio input[type=radio]:checked + label:before {

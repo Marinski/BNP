@@ -26,10 +26,10 @@
 }
 .modalDialog > div {
     width: 920px;
-    height: 415px;
+    height: 367px;
     position: relative;
     margin: 5% auto;
-    padding: 5px 20px 13px 20px;
+    padding: 5px 15px 13px;
     border: 1px solid #cecece;
     border-radius: 0px;
     background: #fff;
