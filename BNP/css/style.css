@@ -1072,11 +1072,6 @@ em.error-message-red {
     padding: 5px 0;
 }
 
-    .error-message-red.long {
-        width: 109%;
-        margin-left: -10px;
-    }
-
 .st-content {
     height: auto !important;
     float: left;
@@ -1089,6 +1084,10 @@ em.error-message-red {
     font-size: 14px;
     padding: 10px 0;
     display: inline-block;
+}
+
+html body div.wrapper div.home-page.clearfix div.form-full form#clientform p span.error-message-red {
+    font-size: 13px;
 }
 
 html > body .error-message-red {
@@ -1169,7 +1168,7 @@ html > body input[type="checkbox"] {
         width: 100%;
         height: 46px;
         background-color: transparent;
-        color: #333;
+        color: #222;
         font-size: 100%;
         line-height: normal;
         -moz-box-shadow: none; /* for Firefox 3.5+ */
@@ -1258,6 +1257,7 @@ html > body #status {
     padding: 0.5em 0em 0.5em 2em;
     overflow: hidden;
     border: 1px solid #bababa;
+    outline: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -1391,7 +1391,7 @@ html > body .custom-select {
         -moz-box-shadow: none; /* for Firefox 3.5+ */
         -webkit-box-shadow: none; /* for Safari and Chrome */
         box-shadow: none;
-        color: #797c85;
+        color: #222;
         display: block;
         font-size: 100%;
         line-height: normal;
@@ -1496,7 +1496,7 @@ div.offers-wrapper ul.offers-list div ul.offer-content li .smaller-font {
 
 ul.offer-content li h3 {
     text-align: center;
-    font-size: 24px;
+    font-size: 21px;
     line-height: 20px;
     text-shadow: 1px 1px 1px #ddd;
 }

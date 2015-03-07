@@ -6,15 +6,7 @@
         letter-spacing: 0.5px;
     }
 }
-/*Safari*/
-@media screen and (-webkit-min-device-pixel-ratio:0)
-{
-    div.caption-box span
-    {
-        letter-spacing: 0.5px;
-    }
-}
-/*Opera*/
+/*Safari, Opera*/
 @media screen and (-webkit-min-device-pixel-ratio:0)
 {
     div.caption-box span
