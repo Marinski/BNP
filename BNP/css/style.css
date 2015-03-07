@@ -206,20 +206,6 @@ div.caption-box {
     margin: 0 auto;
 }
 
-
-/*problem while applied via css, currently inline*/
-/*html body div.wrapper div.3steps {
-    background: #ececec;
-    height: 225px;
-}
-
-div.wrapper div.3steps h3.3steps-title {
-    font-size: 30px;
-    color: #993365;
-    text-align: center;
-    padding-top: 5px;
-}*/
-
 .one-third {
     width: 31%;
     float: left;
@@ -262,7 +248,7 @@ div.wrapper div.3steps h3.3steps-title {
 }
 
 .last .one-third-heading, .last .one-third-paragraph {
-    padding-left: 103px;
+    padding-left: 101px;
     color: #198abf;
     /*margin: 0;*/
 }
@@ -342,7 +328,7 @@ ul.offers-list li.right.offer-item {
     top: 37px;
     border-radius: 50%;
     behavior: url(inc/PIE_uncompressed.htc);
-    background: #fff;
+    background: #fff no-repeat;
 }
 
     .bubble p {
@@ -1633,7 +1619,7 @@ div.offers-wrapper ul.offers-list li.offer-item a.offer-link.active section.offe
     *display: inline;
     cursor: pointer;
     position: relative;
-    padding-left: 25px;
+    padding-left: 30px;
     margin-right: 15px;
 }
 
@@ -1664,3 +1650,17 @@ div.offers-wrapper ul.offers-list li.offer-item a.offer-link.active section.offe
     font-size: 35px;
     line-height: 15px;
 }
+
+/*problem while applied via css, currently inline*/
+/*html > body html body div.wrapper .3steps {
+    background: #ececec;
+    height: 225px;
+}
+
+div.wrapper div.3steps h3.3steps-title {
+    font-size: 32px;
+    color: #993365;
+    text-align: center;
+    padding-top: 20px;
+}
+*/

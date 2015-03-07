@@ -1,0 +1,33 @@
+﻿/*remove custom select dropdown arrow icon*/
+.custom-select select, html > body .custom-select select {
+    background: none;
+}
+
+/*remove custom radio button styling*/
+.radio input[type=radio] {
+    display: inline-block;
+    *display: inline;
+    margin: 0;
+}
+.radio label {
+    padding-left: 10px;
+}
+
+.radio label:before {
+    display: none;
+}
+
+.radio input[type=radio]:checked + label:before {
+    display: none;
+}
+
+/*fix disclaimer text issues*/
+.form-full h2#form-open {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATQAAABTBAMAAADjKeb6AAAAGFBMVEUZir////8Zir8Zir8Zir8Zir8Zir8Zir/jExH4AAAAB3RSTlMAAB5aXfn8OxV1XQAAALZJREFUeF7szqENAAAIwDCu4yXexxE8BtHJqUa9DQ3tHhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhralHt3M3RsAyAMA1H0UFjAGzCCq9SpWIARbIkNzPoUxLKYIHfVlU8/BhZPpP5+PzUHAU3mMltG22TxivbL5uCiVbYYZLTK5mCjoc9oykdrXzYDGy2zhdLRMpuBjZbZQulomc3ASUMPZaW1C6w0HDS0Fwf1q3zenvjzAAAAAElFTkSuQmCC') /*../images/form-blue-bgn.png*/ /*../images/form-blue-bgn.png*/;    
+    );
+    padding-bottom: 15px;
+}
+
+.form-full form#clientform span.error-message-red-main:first-child {
+    margin-top: -15px;
+}
