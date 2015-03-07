@@ -331,9 +331,9 @@ ul.offers-list li.right.offer-item {
     display: table;
     left: 67px;
     top: 37px;
-    border-radius: 50%;
-    behavior: url(inc/PIE_uncompressed.htc);
-    background: #fff no-repeat;
+    /*border-radius: 50%;
+    behavior: url(inc/PIE_uncompressed.htc);*/
+    background: url(../images/bubble.png);
 }
 
     .bubble p {
