@@ -666,7 +666,9 @@ button:focus, button:visited, button:active, button:link {
     display: inline-block;
     *display: inline;
 }
-
+.offer-content li p input {
+    font-size: 15px;
+}
 .offer-content li span {
     font-family: OpenSans-Regular;
     font-size: 1.25em;
@@ -1250,7 +1252,7 @@ html > body #status {
 }
 
  .hasPlaceholder {
-	color: #444;
+	color: #555;
 }
 
 .calculateSumbit {

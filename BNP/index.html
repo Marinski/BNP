@@ -165,8 +165,8 @@
                                 <h3>KAMAT KISZÁMÍTÁSA</h3>
                                 <p>
                                     <label>Betéti összeg: </label>
-                                    <input type="text" name="email" class="styled-input" placeholder="Kérjük, írja be az összeget!" />
-                                    <input type="submit" name="calculate" class="calculateSumbit" value="KAMAT KISZÁMÍTÁSA" />
+                                    <input type="text" name="email" class="styled-input red-border" placeholder="Kérjük, írja be az összeget!" />
+                                    <input type="submit" name="calculate" class="calculateSumbit ie8" value="KAMAT KISZÁMÍTÁSA" />
                                     <em class="error-message-red">Kérem, ehhez a termékhez a minimum és maximum közötti értéket adjon meg!</em>
                                 </p>
                             </li>
@@ -205,7 +205,7 @@
                                 <h3>KAMAT KISZÁMÍTÁSA</h3>
                                 <p>
                                     <label>Betéti összeg: </label>
-                                    <input type="text" name="email" class="styled-input" placeholder="Kérjük, írja be az összeget!" />
+                                    <input type="text" name="email" class="styled-input red-border" placeholder="Kérjük, írja be az összeget!" />
                                     <input type="submit" name="calculate" class="calculateSumbit" value="KAMAT KISZÁMÍTÁSA" />
                                     <em class="error-message-red">Kérem, ehhez a termékhez a minimum és maximum közötti értéket adjon meg!</em>
                                 </p>
@@ -298,7 +298,7 @@
                                 <h3>KAMAT KISZÁMÍTÁSA</h3>
                                 <p>
                                     <label>Betéti összeg: </label>
-                                    <input type="text" name="email" class="styled-input" placeholder="Kérjük, írja be az összeget!" />
+                                    <input type="text" name="email" class="styled-input red-border" placeholder="Kérjük, írja be az összeget!" />
                                     <input type="submit" name="calculate" class="calculateSumbit" value="KAMAT KISZÁMÍTÁSA" />
                                     <em class="error-message-red big letters">Kérem, ehhez a termékhez a minimum és maximum közötti értéket adjon meg!</em>
                                 </p>
@@ -338,7 +338,7 @@
                                 <h3>KAMAT KISZÁMÍTÁSA</h3>
                                 <p>
                                     <label>Betéti összeg: </label>
-                                    <input type="text" name="email" class="styled-input" placeholder="Kérjük, írja be az összeget!" />
+                                    <input type="text" name="email" class="styled-input red-border" placeholder="Kérjük, írja be az összeget!" />
                                     <input type="submit" name="calculate" class="calculateSumbit" value="KAMAT KISZÁMÍTÁSA" />
                                     <em class="error-message-red">Kérem, ehhez a termékhez a minimum és maximum közötti értéket adjon meg!</em>
                                 </p>
@@ -378,12 +378,13 @@
                         <label>Válasszon futamidőt:</label>
                     </p><div class="custom-select">
                         <select id="select" name="select">
-                            <option>Kérjük, válasszon!</option>
+                            <option value="">Kérjük, válasszon!</option>
                             <option value="3">3 hónap</option>
                             <option value="6">6 hónap</option>
                             <option value="9">9 hónap</option>
                             <option value="12">12 hónap</option>
                         </select>
+                        <span class="select"></span>
                     </div>
                     <p>
                         <label>Összeg:</label>
@@ -416,7 +417,9 @@
                                     <option value="9">+321 (Romania)</option>
                                     <option value="12">+123 (Russia)</option>
                                 </select>
+                                <span class="select"></span>
                             </div>
+                        <span class="select"></span>
                         </div>
                         <input type="text" placeholder="XXXXXXXXX" class="styled-input phone-style red-border" name="telephone">
                     </div>
@@ -448,7 +451,6 @@
                             <p class="center-text">  <a class="terms-show close-btn" href="#close">BEZÁRÁS</a> </p>
                         </div>
                     </div><!-- /.modalDialog -->
-
 
                     <p>
                         <button type="submit" class="submit-btn">KÉREM, KÜLDJENEK&#x00A;AJÁNLATOT!</button>
