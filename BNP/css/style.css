@@ -1221,6 +1221,9 @@ html > body input[type="checkbox"] {
 
 .form-full form#clientform p#terms span.error-message-red {
     text-align: left;
+    color: #f66063;/*#ED7664*/ /*#f75e61*/
+    font-size: 13px;
+    background: #dedede;
 }
 
 html > body #status {

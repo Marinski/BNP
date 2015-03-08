@@ -302,7 +302,7 @@
                                         <label>Betéti összeg: </label>
                                         <input type="text" name="email" class="styled-input" placeholder="Kérjük, írja be az összeget!" />
                                         <input type="submit" name="calculate" class="calculateSumbit" value="KAMAT KISZÁMÍTÁSA" />
-                                        <em class="error-message-red">Kérem, ehhez a termékhez a minimum és maximum közötti értéket adjon meg!</em>
+                                        <em class="error-message-red big letters">Kérem, ehhez a termékhez a minimum és maximum közötti értéket adjon meg!</em>
                                     </p>
                                 </li>
                                 <li class="result">
@@ -378,82 +378,85 @@
                             <input id="radio" type="radio" name="radio" value="radio" checked /><label for="radio">Ft</label>
                         </div>
 
-                            <p>
-                                <label>Válasszon futamidőt:</label>
-                            </p><div class="custom-select">
-                                <select id="select" name="select">
-                                    <option>Kérjük, válasszon!</option>
-                                    <option value="3">3 hónap</option>
-                                    <option value="6">6 hónap</option>
-                                    <option value="9">9 hónap</option>
-                                    <option value="12">12 hónap</option>
-                                </select>
-                            </div>
-                            <p>
-                                <label>Összeg:</label>
-                                <input type="text" class="styled-input red-border" name="amount" placeholder="Betéti összeg:">
-                                <span class="error-message-red big letters">Kérjük, helyes formátumban adja meg az összeget!</span>
+                        <p>
+                            <label>Válasszon futamidőt:</label>
+                        </p><div class="custom-select">
+                            <select id="select" name="select">
+                                <option>Kérjük, válasszon!</option>
+                                <option value="3">3 hónap</option>
+                                <option value="6">6 hónap</option>
+                                <option value="9">9 hónap</option>
+                                <option value="12">12 hónap</option>
+                            </select>
+                        </div>
+                        <p>
+                            <label>Összeg:</label>
+                            <input type="text" class="styled-input red-border" name="amount" placeholder="Betéti összeg:">
+                            <span class="error-message-red big letters">Kérjük, helyes formátumban adja meg az összeget!</span>
 
 
-                            </p>
-                            <p>
-                                <label>Név<span>*</span>:</label>
-                                <input type="text" class="styled-input red-border" name="firstName" placeholder="Írja be a nevét!">
-                                <span class="error-message-red">Kérjük, érvényes nevet adjon meg!</span>
+                        </p>
+                        <p>
+                            <label>Név<span>*</span>:</label>
+                            <input type="text" class="styled-input red-border" name="firstName" placeholder="Írja be a nevét!">
+                            <span class="error-message-red big letters">Kérjük, érvényes nevet adjon meg!</span>
 
-                            </p>
-                            <p>
-                                <label>Email<span>*</span>:</label>
-                                <input type="text" placeholder="Írja be az e-mail címét!" class="styled-input red-border" name="email">
-                                <span class="error-message-red">Kérjük, érvényes e-mail címet adjon meg!</span>
+                        </p>
+                        <p>
+                            <label>Email<span>*</span>:</label>
+                            <input type="text" placeholder="Írja be az e-mail címét!" class="styled-input red-border" name="email">
+                            <span class="error-message-red big letters">Kérjük, érvényes e-mail címet adjon meg!</span>
 
-                            </p>
-                            <p>
-                                <label>Mobil telefonszám<span>*</span>:</label>
-                            </p><div class="clearfix">
-                                <div class="phone-code-wrapper">
-                                    <div class="custom-select">
-                                        <select id="anotherSelect" name="anotherSelect">
-                                            <option value="3">+36 (Hungary)</option>
-                                            <option value="2">+359 (Bulgaria)</option>
-                                            <option value="6">+123 (England)</option>
-                                            <option value="9">+321 (Romania)</option>
-                                            <option value="12">+123 (Russia)</option>
-                                        </select>
-                                    </div>
+                        </p>
+                        <p>
+                            <label>Mobil telefonszám<span>*</span>:</label>
+                        </p><div class="clearfix">
+                            <div class="phone-code-wrapper">
+                                <div class="custom-select">
+                                    <select id="anotherSelect" name="anotherSelect">
+                                        <option value="3">+36 (Hungary)</option>
+                                        <option value="2">+359 (Bulgaria)</option>
+                                        <option value="6">+123 (England)</option>
+                                        <option value="9">+321 (Romania)</option>
+                                        <option value="12">+123 (Russia)</option>
+                                    </select>
                                 </div>
-                                <input type="text" placeholder="XXXXXXXXX" class="styled-input phone-style red-border" name="telephone">
                             </div>
+                            <input type="text" placeholder="XXXXXXXXX" class="styled-input phone-style red-border" name="telephone">
+                        </div>
 
-                            <span class="error-message-red">Kérjük, érvényes telefonszámot adjon meg!</span>
-                            <p></p>
-                            <p><span class="purple-text">*</span> Kötelező mező</p>
+                        <p>
+                            <span class="error-message-red big letters">Kérjük, érvényes telefonszámot adjon meg!</span>
+                        </p>
+                        <p><span class="purple-text">*</span> Kötelező mező</p>
 
-                            <p id="terms">
-                                <input type="checkbox" value="Terms" name="terms">Elolvastam és elfogadom az <a id="modalTrigger" href="#Terms" class="checkbox-text terms-show">adatvédelmi nyilatkozatot</a>.<br>
-                                <span class="error-message-red">Kérjük, olvassa végig és fogadja el az Adatkezelési feltételeket!</span>
-                            </p>
+                        <p id="terms">
+                            <input type="checkbox" value="Terms" name="terms">Elolvastam és elfogadom az <a id="modalTrigger" href="#Terms" class="checkbox-text terms-show">adatvédelmi nyilatkozatot</a>.<br>
+                            <span class="error-message-red custom-color">Kérjük, olvassa végig és fogadja el az Adatkezelési feltételeket!</span>
+                        </p>
 
-                            <!-- POPUP -->
+                        <!-- POPUP -->
 
-                            <div id="Terms" class="modalDialog">
+                        <div id="Terms" class="modalDialog">
 
-                                <div>
-                                    <a href="#close" title="Close" class="close">x</a>
-                                    <h1 id="terms-heading">Adatkezelési feltételek</h1>
-                                    <p>Érdeklődése továbbításával Ön kijelenti, hogy önként adta át kezelésre személyes adatait a BNP PARIBAS Magyarországi Fióktelepének (“Bank”), és kifejezetten hozzájárul ahhoz, hogy a megküldött személyes adatait a Bank az Ön által kért információ megadása érdekében, az ügyfél-jóváhagyási eljárás elindításáig kezelje.</p>
-                                    <p>Ön kifejezetten kijelenti, hogy az Ön által a Banknak megadott személyes adatok helyesek és aktuálisak, és felelősséget vállal azért, hogy mindezek az Ön adatai.</p>
-                                    <p>A Bank az Ön által megadott személyes adatokat az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény rendelkezéseinek megfelelően kezeli, kizárólag a fent meghatározott célokra.<br />
-Ön bármikor érdeklődhet a személyes adatai kezelését illetően, kérheti adatai helyesbítését vagy törlését, illetve tiltakozhat is személyes adatai kezelése ellen, melyet a Bank 15 napon belül kivizsgál, és az eredményről értesíti Önt.<br />
-Amennyiben úgy véli, hogy a Bank az adatkezelés során megsértette a jogait, Ön bírósághoz fordulhat, illetve vizsgálatot kezdeményezhet a Nemzeti Adatvédelmi és Információszabadság Hatóságnál. Ha ezzel kapcsolatban kára keletkezik, kártérítésre tarthat igényt.</p>
-                                    <p class="center-text">  <a class="terms-show close-btn" href="#close">BEZÁRÁS</a> </p>
-                                </div>
-                            </div><!-- /.modalDialog -->
+                            <div>
+                                <a href="#close" title="Close" class="close">x</a>
+                                <h1 id="terms-heading">Adatkezelési feltételek</h1>
+                                <p>Érdeklődése továbbításával Ön kijelenti, hogy önként adta át kezelésre személyes adatait a BNP PARIBAS Magyarországi Fióktelepének (“Bank”), és kifejezetten hozzájárul ahhoz, hogy a megküldött személyes adatait a Bank az Ön által kért információ megadása érdekében, az ügyfél-jóváhagyási eljárás elindításáig kezelje.</p>
+                                <p>Ön kifejezetten kijelenti, hogy az Ön által a Banknak megadott személyes adatok helyesek és aktuálisak, és felelősséget vállal azért, hogy mindezek az Ön adatai.</p>
+                                <p>
+                                    A Bank az Ön által megadott személyes adatokat az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény rendelkezéseinek megfelelően kezeli, kizárólag a fent meghatározott célokra.<br />
+                                    Ön bármikor érdeklődhet a személyes adatai kezelését illetően, kérheti adatai helyesbítését vagy törlését, illetve tiltakozhat is személyes adatai kezelése ellen, melyet a Bank 15 napon belül kivizsgál, és az eredményről értesíti Önt.<br />
+                                    Amennyiben úgy véli, hogy a Bank az adatkezelés során megsértette a jogait, Ön bírósághoz fordulhat, illetve vizsgálatot kezdeményezhet a Nemzeti Adatvédelmi és Információszabadság Hatóságnál. Ha ezzel kapcsolatban kára keletkezik, kártérítésre tarthat igényt.
+                                </p>
+                                <p class="center-text">  <a class="terms-show close-btn" href="#close">BEZÁRÁS</a> </p>
+                            </div>
+                        </div><!-- /.modalDialog -->
 
 
-                            <p>
-                                <button type="submit" class="submit-btn">KÉREM, KÜLDJENEK&#x00A;AJÁNLATOT!</button>
-                            </p>
+                        <p>
+                            <button type="submit" class="submit-btn">KÉREM, KÜLDJENEK&#x00A;AJÁNLATOT!</button>
+                        </p>
                     </form>
                 </div><!-- /.form-full -->
 
