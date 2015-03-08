@@ -1035,8 +1035,8 @@ html > body .wrapper > h1 {
 }
 
 input[type="checkbox"] {
-    width: 20px;
-    margin-left: -20px;
+    width: auto;
+    margin: 0 5px 0 -5px;
 }
 
 .error {
@@ -1140,8 +1140,6 @@ html > body .error-message-red {
     background: #f0f0f0;
 }
 
-html > body input[type="checkbox"] {
-    width: auto !important;
 }
 /* New styles select*/
 
@@ -1627,3 +1625,6 @@ div.wrapper div.3steps h3.3steps-title {
     padding-top: 20px;
 }
 */
+.modalDialog {
+    display: none;
+}

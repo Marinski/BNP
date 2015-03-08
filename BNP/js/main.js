@@ -1,13 +1,28 @@
-(function() {
+(function () {
+
+    $("#modalTrigger").click(function () { // makes sure the whole site is loaded
+        $("#Terms").fadeIn(400); // will fade in the white DIV that covers the website.
+        $(".modalDialog div").css({ "display": "block"});
+    });
+
+    $(".close").click(function () {
+        $("#Terms").delay(350).fadeOut("slow"); // will fade in the white DIV that covers the website.
+        $(".modalDialog").delay(350).css({ "display": "none" });
+    });
+
+    $(".close-btn").click(function () {
+        $("#Terms").delay(350).fadeOut("slow"); // will fade in the white DIV that covers the website.
+        $(".modalDialog").delay(350).css({ "display": "none" });
+    });
 
     // Simulation of calculating result just for demonstration
-    $(".calculateSumbit").click(function() {
+    $(".calculateSumbit").click(function () {
         $(".result").css("display", "block");
         return false;
     });
 
     // Show/hide each OFFER type by ID and add class ACTIVE to arrow wrapper
-    $("#offer-1").click(function() {
+    $("#offer-1").click(function () {
         $("#content-1").slideToggle(1000);
         if ($("#content-1").is(":visible")) {
             $("#content-1").css("display", "inline-block");
@@ -26,7 +41,7 @@
         return false;
     });
 
-    $("#offer-2").click(function() {
+    $("#offer-2").click(function () {
         $("#content-2").slideToggle(1000);
         if ($("#content-2").is(":visible")) {
             $("#content-2").css("display", "inline-block");
@@ -45,7 +60,7 @@
         return false;
     });
 
-    $("#offer-3").click(function() {
+    $("#offer-3").click(function () {
         $("#content-3").slideToggle(1000);
         if ($("#content-3").is(":visible")) {
             $("#content-3").css("display", "inline-block");
@@ -64,7 +79,7 @@
         return false;
     });
 
-    $("#offer-4").click(function() {
+    $("#offer-4").click(function () {
         $("#content-4").slideToggle(1000);
         if ($("#content-4").is(":visible")) {
             $("#content-4").css("display", "inline-block");
@@ -84,25 +99,25 @@
     });
 
 
-}(jQuery));
+    //placeholder support for old browsers
+    $(function () {
+        if (!$.support.placeholder) {
+            var active = document.activeElement;
+            $(':text').focus(function () {
+                if ($(this).attr('placeholder') != '' && $(this).val() == $(this).attr('placeholder')) {
+                    $(this).val('').removeClass('hasPlaceholder');
+                }
+            }).blur(function () {
+                if ($(this).attr('placeholder') != '' && ($(this).val() == '' || $(this).val() == $(this).attr('placeholder'))) {
+                    $(this).val($(this).attr('placeholder')).addClass('hasPlaceholder');
+                }
+            });
+            $(':text').blur();
+            $(active).focus();
+            $('form').submit(function () {
+                $(this).find('.hasPlaceholder').each(function () { $(this).val(''); });
+            });
+        }
+    });
 
-//placeholder support for old browsers
-$(function () {
-    if (!$.support.placeholder) {
-        var active = document.activeElement;
-        $(':text').focus(function () {
-            if ($(this).attr('placeholder') != '' && $(this).val() == $(this).attr('placeholder')) {
-                $(this).val('').removeClass('hasPlaceholder');
-            }
-        }).blur(function () {
-            if ($(this).attr('placeholder') != '' && ($(this).val() == '' || $(this).val() == $(this).attr('placeholder'))) {
-                $(this).val($(this).attr('placeholder')).addClass('hasPlaceholder');
-            }
-        });
-        $(':text').blur();
-        $(active).focus();
-        $('form').submit(function () {
-            $(this).find('.hasPlaceholder').each(function () { $(this).val(''); });
-        });
-    }
-});
+}(jQuery));
