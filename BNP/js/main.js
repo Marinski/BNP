@@ -25,6 +25,7 @@
         $("#offer-2, #offer-3, #offer-4").removeClass("active");
         return false;
     });
+
     $("#offer-2").click(function() {
         $("#content-2").slideToggle(1000);
         if ($("#content-2").is(":visible")) {
@@ -43,6 +44,7 @@
         $("#offer-1, #offer-3, #offer-4").removeClass("active");
         return false;
     });
+
     $("#offer-3").click(function() {
         $("#content-3").slideToggle(1000);
         if ($("#content-3").is(":visible")) {
@@ -61,6 +63,7 @@
         $("#offer-1, #offer-2, #offer-4").removeClass("active");
         return false;
     });
+
     $("#offer-4").click(function() {
         $("#content-4").slideToggle(1000);
         if ($("#content-4").is(":visible")) {
