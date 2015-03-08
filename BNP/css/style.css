@@ -1466,26 +1466,6 @@ html > body .terms {
     margin-bottom: 0;
 }
 
-div.offers-wrapper div#st-accordion.st-accordion ul li {
-    display: inline-block;
-    *display: inline;
-    width: 47%;
-}
-
-.offers-wrapper div#st-accordion.st-accordion ul li .offer-content {
-    width: 1250px;
-}
-
-div.offers-wrapper div#st-accordion.st-accordion ul li:nth-child(2n) {
-    margin-left: 5%;
-    margin-right: 0;
-}
-
-html > body #st-accordion > ul > li:nth-child(2n).st-open {
-    position: relative;
-    left: -326px;
-}
-
 #content-1, #content-2, #content-3, #content-4 {
     display: none;
     width: 620px;

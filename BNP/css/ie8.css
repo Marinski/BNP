@@ -41,3 +41,6 @@ html > body .custom-select select {
 html body div.wrapper div.home-page.clearfix div.form-full form#clientform input.styled-input {
     padding-top: 0.7em;
 }
+div.offers-wrapper ul.offers-list li ul.offer-content li.odd {
+    background: #f3f3f3;
+}
