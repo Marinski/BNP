@@ -1,24 +1,18 @@
 (function () {
+    // Simulation of calculating result just for demonstration
+    $(".calculateSumbit").click(function () {
+        $(".result").fadeIn(400); // will fade in the DIV that prints result from calculations.
+    });
+
 
     $("#modalTrigger").click(function () { // makes sure the whole site is loaded
         $("#Terms").fadeIn(400); // will fade in the white DIV that covers the website.
         $(".modalDialog div").css({ "display": "block"});
     });
 
-    $(".close").click(function () {
+    $(".close, .close-btn").click(function () {
         $("#Terms").delay(350).fadeOut("slow"); // will fade in the white DIV that covers the website.
         $(".modalDialog").delay(350).css({ "display": "none" });
-    });
-
-    $(".close-btn").click(function () {
-        $("#Terms").delay(350).fadeOut("slow"); // will fade in the white DIV that covers the website.
-        $(".modalDialog").delay(350).css({ "display": "none" });
-    });
-
-    // Simulation of calculating result just for demonstration
-    $(".calculateSumbit").click(function () {
-        $(".result").css("display", "block");
-        return false;
     });
 
     // Show/hide each OFFER type by ID and add class ACTIVE to arrow wrapper

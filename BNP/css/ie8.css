@@ -1,4 +1,7 @@
-﻿div.caption-box span {
+﻿div.wrapper div.home-page div.offers-wrapper ul.offers-list ul.offer-content .result {
+}
+
+div.caption-box span {
     letter-spacing: -0.5px;
 }
 
@@ -43,4 +46,8 @@ html body div.wrapper div.home-page.clearfix div.form-full form#clientform input
 }
 div.offers-wrapper ul.offers-list li ul.offer-content li.odd {
     background: #f3f3f3;
+}
+
+.result {
+    background: #000;
 }

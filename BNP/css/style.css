@@ -1502,9 +1502,9 @@ div.wrapper div.home-page div.offers-wrapper ul.offers-list ul.offer-content li:
     padding-bottom: 5px;
 }
 
-div.wrapper div.home-page div.offers-wrapper ul.offers-list ul.offer-content li:nth-last-child(1) {
-    display: none;
+div.wrapper div.home-page div.offers-wrapper ul.offers-list ul.offer-content .result {
     background: none repeat scroll 0 0 #f3f3f3;
+    display: none;
 }
 
 div.wrapper div.home-page div.offers-wrapper ul.offers-list ul.offer-content li .totalAmmount {
