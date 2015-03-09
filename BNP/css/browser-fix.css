@@ -11,6 +11,18 @@
 {
     div.caption-box span
     {
-        letter-spacing: 0.5px;
+        font-size: 20px;
     }
+}
+/*Firefox*/
+@-moz-document url-prefix() { 
+  div.caption-box span {
+     font-size: 20px;
+  }
+
+  #phone a {
+  	display: block;
+  	width: 265px;
+  }
+
 }

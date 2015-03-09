@@ -155,8 +155,9 @@ table {
 
 #phone {
     float: right;
+	width: 260px;
     margin-top: 6px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
     #phone span#title {
@@ -238,7 +239,8 @@ div.caption-box {
 }
 
 .one-third-paragraph {
-    font-size: 14px;
+    font-family: "OpenSans-Bold";
+    font-size: 13px;
     padding-left: 130px;
     text-align: left;
     font-weight: bold;
@@ -332,7 +334,7 @@ ul.offers-list li.right.offer-item {
     left: 67px;
     top: 37px;
     /*border-radius: 50%;
-    behavior: url(inc/PIE_uncompressed.htc);*/
+    behavior: url(../inc/PIE_uncompressed.htc);*/
     background: url(../images/bubble.png);
 }
 
@@ -347,7 +349,7 @@ ul.offers-list li.right.offer-item {
 /*success page*/
 
 #success-page p {
-    font-size: 30px;
+    font-size: 22px;
     line-height: 40px;
     color: #000;
     text-align: center;
@@ -355,12 +357,12 @@ ul.offers-list li.right.offer-item {
 
     #success-page p.success-color {
         color: #bc1e6c;
-        font-size: 24px;
         text-shadow: 1px 0px 0px #d43a88;
+        font-size: 24px;
     }
 
     #success-page p.success-dark, .error-dark {
-        margin-top: 50px;
+        margin-top: 0px;
         text-shadow: 1px 0px 0px #222;
     }
 /*success bubble*/
@@ -369,8 +371,8 @@ ul.offers-list li.right.offer-item {
     width: 100%;
     height: 100%;
     position: relative;
-    margin-top: 95px;
-    margin-bottom: 100px;
+    /*margin-top: 95px;*/
+    margin-bottom: 20px;
 }
 
 .success-bubble {
@@ -378,15 +380,17 @@ ul.offers-list li.right.offer-item {
     width: 170px;
     height: 150px;
     /*border-radius: 50%;
-    behavior: url(inc/PIE_uncompressed.htc);
+    behavior: url(../inc/PIE_uncompressed.htc);
     border: 3px solid #088671;*/
-    background: url("../images/success-circle.png") no-repeat 50% 50% #fff;
+    background: url("../images/success-circle-100.png") no-repeat 50% 50% #fff;
     margin: 0 auto;
 }
 /*error page*/
 
 #error-page p {
-    font-size: 30px;
+    width: 76%;
+    margin: 0 auto;
+    font-size: 22px;
     line-height: 40px;
     color: #000;
     text-align: center;
@@ -394,8 +398,8 @@ ul.offers-list li.right.offer-item {
 
     #error-page p.error-color {
         color: #bc1e6c;
-        font-size: 24px;
         text-shadow: 1px 0px 0px #d43a88;
+        font-size: 24px;
     }
 /*error bubble*/
 
@@ -403,18 +407,18 @@ ul.offers-list li.right.offer-item {
     width: 100%;
     height: 100%;
     position: relative;
-    margin-top: 95px;
-    margin-bottom: 100px;
+    /*margin-top: 95px;*/
+    margin-bottom: 20px;
 }
 
 .error-bubble {
     display: table;
     /*border-radius: 50%;
-    behavior: url(inc/PIE_uncompressed.htc);
+    behavior: url(../inc/PIE_uncompressed.htc);
     border: 5px solid #993365;*/
     width: 170px;
     height: 150px;
-    background: url("../images/error-circle.png") no-repeat 55% 50% #fff;
+    background: url("../images/error-circle-100.png") no-repeat 55% 50% #fff;
     margin: 0 auto;
 }
 /*financial area*/
@@ -516,9 +520,9 @@ a {
     outline: 0;
 }
 
-    a:visited {
+   /* a:visited {
         color: #000;
-    }
+    }*/
 
 .wrapper > h1 {
     font-family: OpenSans-Regular;
@@ -589,7 +593,7 @@ h3 {
         color: #077764;
         margin: 5px;
         border-radius: 50%;
-        behavior: url(inc/PIE_uncompressed.htc);
+        behavior: url(../inc/PIE_uncompressed.htc);
         line-height: 50px;
         font-size: 20px;
     }
@@ -668,6 +672,7 @@ button:focus, button:visited, button:active, button:link {
 }
 .offer-content li p input {
     font-size: 15px;
+    margin-left: 0;
 }
 .offer-content li span {
     font-family: OpenSans-Regular;
@@ -698,7 +703,7 @@ html body footer.footer div.footer-content div.footarea.coffee p {
 
 .footer-content .footer-title {
     font-family: OpenSans-Regular;
-    font-size: 34px;
+    font-size: 28px;
     margin-top: -15px;
     line-height: 80px;
     color: #1d1d1b;
@@ -761,7 +766,7 @@ html body footer.footer div.footer-content div.footarea.coffee p {
 .banner {
     position: relative;
     margin-top: -10px;
-    overflow: hidden;
+    overflow: visible;
     max-width: 100%;
     max-height: 367px;
 }
@@ -882,7 +887,7 @@ select::-ms-expand {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px !important;
-    behavior: url(inc/PIE_uncompressed.htc);
+    behavior: url(../inc/PIE_uncompressed.htc);
     cursor: pointer;
 }
 
@@ -906,7 +911,7 @@ select::-ms-expand {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0 !important;
-    behavior: url(inc/PIE_uncompressed.htc);
+    behavior: url(../inc/PIE_uncompressed.htc);
 }
 
     .reset-btn:focus, .submit-btn:focus {
@@ -1106,7 +1111,7 @@ html > body .error-message-red {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    behavior: url(inc/PIE_uncompressed.htc);
+    behavior: url(../inc/PIE_uncompressed.htc);
     margin-bottom: 5px;
 }
 
@@ -1241,6 +1246,7 @@ html > body #status {
     width: 100%;
     padding: 0.5em 0.5em 0.5em 1em;
     height: 42px;
+    outline: none;
     overflow: hidden;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -1248,7 +1254,7 @@ html > body #status {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px !important;
-    behavior: url(inc/PIE_uncompressed.htc);
+    behavior: url(../inc/PIE_uncompressed.htc);
 }
 
  .hasPlaceholder {
@@ -1256,7 +1262,7 @@ html > body #status {
 }
 
 .calculateSumbit {
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAZCAYAAADTyxWqAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1ODc1NDJDM0Q2MjA2ODExODIyQUY1RkQyM0MwNUYyMiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1OTgwNzk5QUJFQTUxMUU0QTZBNDkwODE1RTUyRDA1NiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1OTgwNzk5OUJFQTUxMUU0QTZBNDkwODE1RTUyRDA1NiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RDYyNDE1MjgxOTIwNjgxMTgyMkFCMzBBNTM5RURFRDEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NTg3NTQyQzNENjIwNjgxMTgyMkFGNUZEMjNDMDVGMjIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6+zpMYAAACL0lEQVR42rSVT0hUURTG35u/ihiDSDKJkeMiVBilBmMIlFYKQTBbpV2b3AUNtBBcRBSBblwFFUkELgJXbmbhokXiwl0LLS2JFJFpmmn+FM0403eG78bhLmocmge/uXfOfZx7z/nOPc91HKcDPADToM05/VMFh+Cui58keMyFIhf/9tTAD77nAd3AC7LibBtcBPfBEjj5h7MKiIMukAMfwTNwSRa/c7d4g2FNMQJxVAC3wB05qYc7ydN+CmefQAS8BBMgKAfyNJHwCnP2FXxTh3GacSYpOQsmwRB91GxnPxt09gSUGKIk/TkQIR2f8YrndoN1Vgb3QIDKh8AsRanHXvsPpH1qR1Fon/PzYIDzPfCZ8xHWlyR9g6MU7FWOToaebyjHMdryoE/ZH9K++UeNWj1LryR8LUBazXMcTyx7kWPJyuOunMxlzuTob8EOFyMsRtl2XYU5zvCl8ldVmFNGvJYIIBf+NUNLgChfWgNbLKMZcIHlscJLfg7ctAW4phwP05a17uwc7W8sARYkZC1Ah5q3q+sWUnZT1F5LgLpdC3AM3nFxEIQ5fw++cB5lM6wydCmdTnDZVEBLBEixqs0JEpR+WZ3sOgta8vyUrShIAc44TLJ4HlOOe2nLWLlJ0p6yBJg3nbaoFPSTmBIiRpskuZ/2MIXxu64rORs1TfIRd5P6+sCE/1K5yNO2b+XoiPYD/i+Imj3gBbjC+E3PMl8pn+p7ZfUpDKguK+178bcAAwAfoNSmqOXrxgAAAABJRU5ErkJggg==') /*../images/calc.png*/ no-repeat 16px center #b6b6b6;
+    background: url('../images/calc.png') no-repeat 16px center #b6b6b6;
     width: 228px;
     height: 42px;
     margin-left: 15px;
@@ -1271,7 +1277,7 @@ html > body #status {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    behavior: url(inc/PIE_uncompressed.htc);
+    /*behavior: url(../inc/PIE_uncompressed.htc);*/
     color: #000;
     font-size: 14px;
     font-weight: bold;
@@ -1280,7 +1286,8 @@ html > body #status {
 
 li p input.styled-input {
     border: 1px solid #bababa;
-    width: 215px;
+    width: 200px;
+    font-size: 0.8em;
 }
 
 .form-full .styled-input:focus {
@@ -1533,11 +1540,9 @@ div.wrapper div div.offers-wrapper ul.offers-list ul.offer-content li.additional
 }
 
 ul.offer-content li p label {
-    font-size: 18px;
+    font-size: 16px;
     color: #1d1d1b;
     text-shadow: 0px 1px 1px #e2e2e2;
-    margin-left: -10px;
-    margin-right: 10px;
 }
 
 div.wrapper div div.offers-wrapper ul.offers-list ul.offer-content li .totalAmmount mark {
@@ -1583,7 +1588,7 @@ div.offers-wrapper ul.offers-list li.offer-item a.offer-link.active section.offe
     -webkit-box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, .1), 0 1px 0 0 rgba(255, 255, 255, .8); /* for Safari and Chrome */
     box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, .1), 0 1px 0 0 rgba(255, 255, 255, .8);
     border-radius: 8px;
-    behavior: url(inc/PIE_uncompressed.htc);
+    behavior: url(../inc/PIE_uncompressed.htc);
 }
 
 .radio input[type=radio]:checked + label:before {
@@ -1609,4 +1614,13 @@ div.wrapper div.3steps h3.3steps-title {
 */
 .modalDialog {
     display: none;
+}
+
+#Terms > div > p {
+    text-align: justify;
+    color: #000;
+}
+
+#Terms > div > p.center-text {
+    text-align:  center;
 }

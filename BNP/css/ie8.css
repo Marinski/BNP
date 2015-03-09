@@ -1,8 +1,8 @@
-﻿div.wrapper div.home-page div.offers-wrapper ul.offers-list ul.offer-content .result {
+﻿div.caption-box h3 {
+    font-size: 2.35em;
 }
-
 div.caption-box span {
-    letter-spacing: -0.5px;
+    font-size: 1.46em;
 }
 
 .modalDialog {
@@ -14,11 +14,25 @@ div.caption-box span {
 }
 
     .modalDialog p {
-        color: #222;
+        color: #000000;
+        text-align: justify;
+    }
+
+    .modalDialog p.center-text {
+        text-align: center;
     }
 
 .calculateSumbit.ie8 {
-    background: #b6b6b6;
+    border: 0;
+    background: url('../images/calc-interest-bgn-text.png');
+    width: 236px;
+    padding-top: 0px;
+    margin-left: 10px;
+}
+
+input[type="submit"].calculateSumbit.ie8 {
+  font-size: 0;
+  padding-top: 3.5px;
 }
 
 html > body .custom-select select {
@@ -50,4 +64,19 @@ div.offers-wrapper ul.offers-list li ul.offer-content li.odd {
 
 .result {
     background: #000;
+}
+
+body > div.wrapper > div > div.one-third > div > p {
+    /*font-size: 13px;*/
+    text-align: justify;
+}
+
+#phone {
+    width: 240px;
+    margin-top: 6px;
+    margin-right: 15px;
+}
+
+#phone a {
+    font-size: 22px;
 }
