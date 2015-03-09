@@ -1,4 +1,45 @@
 (function () {
+
+    $("#periodDropdown, #countryDropdown, .dropdown-trigger-class, .close, close-btn").click(function (event) {
+        event.preventDefault();
+    });
+    // Custom dropdown select
+    $(document).ready(function () {
+
+        $(".dropdown dt a#periodDropdown").click(function () {
+            $(".dropdown dd ul#periodUl").toggle();
+        });
+
+        $(".dropdown dt a#countryDropdown").click(function () {
+            $(".dropdown dd ul#countryUl").toggle();
+        });
+
+        $(".dropdown dd ul#periodUl li a").click(function () {
+            var text = $(this).html();
+            $(".dropdown dt a#periodDropdown span").html(text);
+            $(".dropdown dd ul#periodUl").hide();
+            // $("#result").html("Selected value is: " + getSelectedValue("sample"));
+        });
+
+        $(".dropdown dd ul#countryUl li a").click(function () {
+            var text = $(this).html();
+            $(".dropdown dt a#countryDropdown span").html(text);
+            $(".dropdown dd ul#countryUl").hide();
+            // $("#result").html("Selected value is: " + getSelectedValue("sample"));
+        });
+
+        //do this function foreach dl
+        //function getSelectedValue(id) {
+        //    return $("#" + id).find("dt a span.value").html();
+        //}
+
+        //$(document).bind('click', function (e) {
+        //    var $clicked = $(e.target);
+        //    if (!$clicked.parents().hasClass("dropdown"))
+        //        $(".dropdown dd ul").hide();
+        //});
+
+    });
     // Simulation of calculating result just for demonstration
     $(".calculateSumbit").click(function () {
         $(".result").fadeIn(400); // will fade in the DIV that prints result from calculations.

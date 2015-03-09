@@ -377,16 +377,20 @@
 
                     <p>
                         <label>Válasszon futamidőt:</label>
-                    </p><div class="custom-select">
-                        <select id="select" name="select">
-                            <option value="">Kérjük, válasszon!</option>
-                            <option value="3">3 hónap</option>
-                            <option value="6">6 hónap</option>
-                            <option value="9">9 hónap</option>
-                            <option value="12">12 hónap</option>
-                        </select>
-                        <span class="select"></span>
-                    </div>
+                    </p>
+                    
+                    <dl id="valasszon" class="dropdown">
+                        <dt><a href="#" id="periodDropdown"><span>Kérjük, válasszon!</span></a></dt>
+                        <dd>
+                            <ul id="periodUl">
+                                <li><a class="dropdown-trigger-class" href="#">3 hónap<span class="value">BR</span></a></li>
+                                <li><a class="dropdown-trigger-class" href="#">6 hónap<span class="value">BR</span></a></li>
+                                <li><a class="dropdown-trigger-class" href="#">9 hónap<span class="value">BR</span></a></li>
+                                <li><a class="dropdown-trigger-class" href="#">12 hónap<span class="value">BR</span></a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+
                     <p>
                         <label>Összeg:</label>
                         <input type="text" class="styled-input red-border" name="amount" placeholder="Betéti összeg:">
@@ -409,19 +413,21 @@
                     <p>
                         <label>Mobil telefonszám<span>*</span>:</label>
                     </p><div class="clearfix">
-                        <div class="phone-code-wrapper">
-                            <div class="custom-select">
-                                <select id="anotherSelect" name="anotherSelect">
-                                    <option value="3">+36 (Hungary)</option>
-                                    <option value="2">+359 (Bulgaria)</option>
-                                    <option value="6">+123 (England)</option>
-                                    <option value="9">+321 (Romania)</option>
-                                    <option value="12">+123 (Russia)</option>
-                                </select>
-                                <span class="select"></span>
-                            </div>
+
+                            <dl id="country" class="dropdown">
+                                <dt><a href="#" id="countryDropdown"><span>+36 (Hungary)</span></a></dt>
+                                <dd>
+                                    <ul id="countryUl">
+                                        <li><a class="dropdown-trigger-class" href="#">+36 (Hungary)<span class="value">Bulgaria</span></a></li>
+                                        <li><a class="dropdown-trigger-class" href="#">+359 (Bulgaria)<span class="value">Bulgaria</span></a></li>
+                                        <li><a class="dropdown-trigger-class" href="#">+123 (England)<span class="value">England</span></a></li>
+                                        <li><a class="dropdown-trigger-class" href="#">+321 (Romania)<span class="value">Romania</span></a></li>
+                                        <li><a class="dropdown-trigger-class" href="#">+123 (Russia)<span class="value">Russia</span></a></li>
+                                    </ul>
+                                </dd>
+                            </dl>
+
                         <span class="select"></span>
-                        </div>
                         <input type="text" placeholder="XXXXXXXXX" class="styled-input phone-style red-border" name="telephone">
                     </div>
 
@@ -493,7 +499,6 @@
     <!-- INCLUDE ALL SCRIPTS -->
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/main.js"></script>
-
     <!-- AJAX PAGE LOAGING -->
     <script type="text/javascript">
         //<![CDATA[

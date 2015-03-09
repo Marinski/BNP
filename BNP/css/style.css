@@ -155,7 +155,7 @@ table {
 
 #phone {
     float: right;
-	width: 260px;
+    width: 260px;
     margin-top: 6px;
     margin-right: 10px;
 }
@@ -520,7 +520,7 @@ a {
     outline: 0;
 }
 
-   /* a:visited {
+/* a:visited {
         color: #000;
     }*/
 
@@ -670,10 +670,12 @@ button:focus, button:visited, button:active, button:link {
     display: inline-block;
     *display: inline;
 }
-.offer-content li p input {
-    font-size: 15px;
-    margin-left: 0;
-}
+
+    .offer-content li p input {
+        font-size: 15px;
+        margin-left: 0;
+    }
+
 .offer-content li span {
     font-family: OpenSans-Regular;
     font-size: 1.25em;
@@ -1226,7 +1228,7 @@ html > body .error-message-red {
 
 .form-full form#clientform p#terms span.error-message-red {
     text-align: left;
-    color: #f66063;/*#ED7664*/ /*#f75e61*/
+    color: #f66063; /*#ED7664*/ /*#f75e61*/
     font-size: 13px;
     background: #dedede;
 }
@@ -1257,8 +1259,8 @@ html > body #status {
     behavior: url(../inc/PIE_uncompressed.htc);
 }
 
- .hasPlaceholder {
-	color: #555;
+.hasPlaceholder {
+    color: #555;
 }
 
 .calculateSumbit {
@@ -1621,6 +1623,77 @@ div.wrapper div.3steps h3.3steps-title {
     color: #000;
 }
 
-#Terms > div > p.center-text {
-    text-align:  center;
+    #Terms > div > p.center-text {
+        text-align: center;
+    }
+
+/*custom dropdown With list items*/
+.dropdown dd, .dropdown dt, .dropdown ul {
+    margin: 0px;
+    padding: 0px;
 }
+
+.dropdown dd {
+    position: relative;
+}
+
+.dropdown a, .dropdown a:visited {
+    color: #816c5b;
+    text-decoration: none;
+    outline: none;
+}
+
+    .dropdown a:hover {
+        color: #5d4617;
+    }
+
+.dropdown dt a:hover {
+    color: #5d4617;
+    border: 1px solid #d0c9af;
+}
+
+.dropdown dt a {
+    background: #fff url(../images/ie8-drop-down-small.png) no-repeat scroll right center;
+    display: block;
+    padding-right: 20px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    width: 228px;
+    height: 41px;
+}
+
+    .dropdown dt a span {
+        cursor: pointer;
+        display: block;
+        padding: 15px;
+        color: #111;
+    }
+
+.dropdown dd ul {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    color: #C5C0B0;
+    display: none;
+    left: 0px;
+    padding: 5px 0px;
+    position: absolute;
+    top: -10px;
+    width: auto;
+    min-width: 248px;
+    list-style: none;
+    z-index: 1;
+}
+
+.dropdown span.value {
+    display: none;
+}
+
+.dropdown dd ul li a {
+    padding: 5px 15px;
+    background: #fff;
+    display: block;
+}
+
+    .dropdown dd ul li a:hover {
+        background-color: #dfdfdf;
+    }
