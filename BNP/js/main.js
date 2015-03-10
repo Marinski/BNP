@@ -1,8 +1,8 @@
 ﻿(function () {
 
     
-    $(".modalDialog, #periodDropdown, #countryDropdown, .dropdown-trigger-class, .close, close-btn").click(function (event) {
-        event.preventDefault ? event.preventDefault() : event.returnValue = false;
+    $("#modalTrigger, #periodDropdown, #countryDropdown, .dropdown-trigger-class, .close, close-btn").click(function (event) {
+        (event.preventDefault) ? event.preventDefault() : event.returnValue = false; 
     });
     // Custom dropdown select
     $(document).ready(function () {

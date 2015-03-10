@@ -1645,17 +1645,11 @@ div.wrapper div.3steps h3.3steps-title {
 }
 
 .dropdown a, .dropdown a:visited {
-    color: #816c5b;
     text-decoration: none;
     outline: none;
 }
 
-    .dropdown a:hover {
-        color: #5d4617;
-    }
-
 .dropdown dt a:hover {
-    color: #5d4617;
     border: 1px solid #d0c9af;
 }
 
