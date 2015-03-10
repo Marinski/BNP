@@ -1,28 +1,23 @@
 /*Google Chrome:*/
-@media not all and (-webkit-min-device-pixel-ratio:0)
-{  
-    div.caption-box span
-    {
+@media not all and (-webkit-min-device-pixel-ratio:0) {
+    div.caption-box span {
         letter-spacing: 0.5px;
     }
 }
 /*Safari, Opera*/
-@media screen and (-webkit-min-device-pixel-ratio:0)
-{
-    div.caption-box span
-    {
-        font-size: 20px;
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    div.caption-box span {
+        letter-spacing: 0.5px;
     }
 }
 /*Firefox*/
-@-moz-document url-prefix() { 
-  div.caption-box span {
-     font-size: 20px;
-  }
+@-moz-document url-prefix() {
+    div.caption-box span {
+        font-size: 20px;
+    }
 
-  #phone a {
-  	display: block;
-  	width: 265px;
-  }
-
+    #phone a {
+        display: block;
+        width: 265px;
+    }
 }
