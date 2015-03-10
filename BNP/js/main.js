@@ -62,6 +62,7 @@
         $("#content-1").slideToggle(1000);
         if ($("#content-1").is(":visible")) {
             $("#content-1").css("display", "inline-block");
+                        
             $(".offer-content").css("height", "380px");
             // add class to link
             if ($("#offer-1").hasClass("active")) {
