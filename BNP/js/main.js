@@ -1,7 +1,8 @@
-(function () {
+﻿(function () {
 
-    $("#periodDropdown, #countryDropdown, .dropdown-trigger-class, .close, close-btn").click(function (event) {
-        event.preventDefault();
+    
+    $(".modalDialog, #periodDropdown, #countryDropdown, .dropdown-trigger-class, .close, close-btn").click(function (event) {
+        event.preventDefault ? event.preventDefault() : event.returnValue = false;
     });
     // Custom dropdown select
     $(document).ready(function () {
@@ -45,10 +46,9 @@
         $(".result").fadeIn(400); // will fade in the DIV that prints result from calculations.
     });
 
-
     $("#modalTrigger").click(function () { // makes sure the whole site is loaded
         $("#Terms").fadeIn(400); // will fade in the white DIV that covers the website.
-        $(".modalDialog div").css({ "display": "block"});
+        $(".modalDialog div").css({ "display": "block" });
     });
 
     $(".close, .close-btn").click(function () {
@@ -132,7 +132,6 @@
         $("#offer-1, #offer-2, #offer-3").removeClass("active");
         return false;
     });
-
 
     //placeholder support for old browsers
     $(function () {

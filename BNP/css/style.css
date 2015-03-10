@@ -300,6 +300,7 @@ ul.offers-list li.offer-item {
     height: 398px;
     margin-bottom: 18px;
     margin-right: 18px;
+    z-index: 1;
 }
 
 ul.offers-list li.right.offer-item {
@@ -1514,6 +1515,7 @@ div.wrapper div.home-page div.offers-wrapper ul.offers-list ul.offer-content li:
 div.wrapper div.home-page div.offers-wrapper ul.offers-list ul.offer-content .result {
     background: none repeat scroll 0 0 #f3f3f3;
     display: none;
+    position: relative;
 }
 
 div.wrapper div.home-page div.offers-wrapper ul.offers-list ul.offer-content li .totalAmmount {
@@ -1627,6 +1629,12 @@ div.wrapper div.3steps h3.3steps-title {
         text-align: center;
     }
 
+
+
+    /*kamat*/
+    .offer-content li p.kamat {
+        margin-left: 23px;
+    }
 /*custom dropdown With list items*/
 .dropdown dd, .dropdown dt, .dropdown ul {
     margin: 0px;

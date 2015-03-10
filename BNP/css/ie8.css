@@ -6,7 +6,8 @@ div.caption-box span {
 }
 
 .modalDialog {
-    background: url('../images/bgn-rgba-black-opacity.png');
+    background: url("../images/bgn-rgba-black-opacity.png");
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',sizingMethod='scale',src='../images/bgn-rgba-black-opacity.png');
     zoom: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
@@ -62,10 +63,6 @@ div.offers-wrapper ul.offers-list li ul.offer-content li.odd {
     background: #f3f3f3;
 }
 
-.result {
-    background: #000;
-}
-
 body > div.wrapper > div > div.one-third > div > p {
     /*font-size: 13px;*/
     text-align: justify;
@@ -79,4 +76,9 @@ body > div.wrapper > div > div.one-third > div > p {
 
 #phone a {
     font-size: 22px;
+}
+
+div.wrapper div.home-page div.offers-wrapper ul.offers-list ul.offer-content .result.odd {
+    left: 5px solid #F3F3F3;
+    margin-right: 5px solid #F3F3F3;
 }
