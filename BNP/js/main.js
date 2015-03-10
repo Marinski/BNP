@@ -44,6 +44,7 @@
     // Simulation of calculating result just for demonstration
     $(".calculateSumbit").click(function () {
         $(".result").fadeIn(400); // will fade in the DIV that prints result from calculations.
+        $(".offer-content").css("height", "500px");
     });
 
     $("#modalTrigger").click(function () { // makes sure the whole site is loaded
@@ -61,6 +62,7 @@
         $("#content-1").slideToggle(1000);
         if ($("#content-1").is(":visible")) {
             $("#content-1").css("display", "inline-block");
+            $(".offer-content").css("height", "380px");
             // add class to link
             if ($("#offer-1").hasClass("active")) {
                 $("#offer-1").removeClass("active");
@@ -80,6 +82,7 @@
         $("#content-2").slideToggle(1000);
         if ($("#content-2").is(":visible")) {
             $("#content-2").css("display", "inline-block");
+            $(".offer-content").css("height", "380px");
             // add class to link
             if ($("#offer-2").hasClass("active")) {
                 $("#offer-2").removeClass("active");
@@ -99,6 +102,7 @@
         $("#content-3").slideToggle(1000);
         if ($("#content-3").is(":visible")) {
             $("#content-3").css("display", "inline-block");
+            $(".offer-content").css("height", "380px");
             // add class to link
             if ($("#offer-3").hasClass("active")) {
                 $("#offer-3").removeClass("active");
@@ -118,6 +122,7 @@
         $("#content-4").slideToggle(1000);
         if ($("#content-4").is(":visible")) {
             $("#content-4").css("display", "inline-block");
+            $(".offer-content").css("height", "380px");
             // add class to link
             if ($("#offer-4").hasClass("active")) {
                 $("#offer-4").removeClass("active");

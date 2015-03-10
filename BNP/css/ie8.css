@@ -88,7 +88,17 @@ body > div.wrapper > div > div.one-third > div > p {
         font-size: 22px;
     }
 
-div.wrapper div.home-page div.offers-wrapper ul.offers-list ul.offer-content .result.odd {
+div.wrapper div.home-page div.offers-wrapper ul.offers-list ul.offer-content  {
+    /*height: 523px;*/
+}
+
+div.wrapper div.home-page div.offers-wrapper ul.offers-list ul.offer-content li {
     left: 5px solid #F3F3F3;
     margin-right: 5px solid #F3F3F3;
+    display: block;
+    position: relative;
+}
+
+body > div.wrapper > div.home-page > div.offers-wrapper > ul > li.offer-item.even-row {
+    position: relative;
 }

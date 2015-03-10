@@ -633,7 +633,7 @@ h3 {
     /* Opera/IE 8+ */
     border-right: 1px solid #f3f3f3;
     border-left: 1px solid #f3f3f3;
-    border-bottom: 1px solid #f3f3f3;
+    /*border-bottom: 1px solid #f3f3f3;*/
     margin-bottom: 20px;
 }
 
@@ -1114,7 +1114,6 @@ html > body .error-message-red {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    behavior: url(../inc/PIE_uncompressed.htc);
     margin-bottom: 5px;
 }
 
