@@ -1,27 +1,36 @@
 ﻿div.caption-box h3 {
     font-size: 2.35em;
 }
+
 div.caption-box span {
     font-size: 1.46em;
 }
 
 .modalDialog {
-    background: url("../images/bgn-rgba-black-opacity.png");
-    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',sizingMethod='scale',src='../images/bgn-rgba-black-opacity.png');
     zoom: 1;
+    background: url("../images/bgn-rgba-black-opacity.png");
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',sizingMethod='scale',src='../images/bgn-rgba-black-opacity.png')";
+}
+
+.popup {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
     opacity: 1;
 }
 
-    .modalDialog p {
-        color: #000000;
-        text-align: justify;
-    }
+.modalDialog p {
+    font-family: OpenSans-Regular;
+    color: #000000;
+    text-align: justify;
+}
 
     .modalDialog p.center-text {
         text-align: center;
     }
+
+.modalDialog > div {
+    padding-bottom: 35px;
+}
 
 .calculateSumbit.ie8 {
     border: 0;
@@ -32,8 +41,8 @@ div.caption-box span {
 }
 
 input[type="submit"].calculateSumbit.ie8 {
-  font-size: 0;
-  padding-top: 3.5px;
+    font-size: 0;
+    padding-top: 3.5px;
 }
 
 html > body .custom-select select {
@@ -44,21 +53,22 @@ html > body .custom-select select {
     position: relative;
 }
 
-.custom-select span.select {
-    position: absolute;
-    background: url(../images/ie8-drop-down-small.png);
-    top: 0;
-    right: 0;
-    width: 41px;
-    height: 41px;
-    display: block;
-    color: black;
-    line-height: 250%;
-}
+    .custom-select span.select {
+        position: absolute;
+        background: url(../images/ie8-drop-down-small.png);
+        top: 0;
+        right: 0;
+        width: 41px;
+        height: 41px;
+        display: block;
+        color: black;
+        line-height: 250%;
+    }
 
 html body div.wrapper div.home-page.clearfix div.form-full form#clientform input.styled-input {
     padding-top: 0.7em;
 }
+
 div.offers-wrapper ul.offers-list li ul.offer-content li.odd {
     background: #f3f3f3;
 }
@@ -74,9 +84,9 @@ body > div.wrapper > div > div.one-third > div > p {
     margin-right: 15px;
 }
 
-#phone a {
-    font-size: 22px;
-}
+    #phone a {
+        font-size: 22px;
+    }
 
 div.wrapper div.home-page div.offers-wrapper ul.offers-list ul.offer-content .result.odd {
     left: 5px solid #F3F3F3;
